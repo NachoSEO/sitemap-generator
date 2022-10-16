@@ -1,0 +1,11 @@
+{
+  "name": "sitemap-generator",
+  "version": "1.0.0",
+  "description": "A NodeJS script to generate sitemaps & sitemap index with just one command",
+  "main": "./src/index.js",
+  "author": "Nacho Mascort <nacho.mascort@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "execute": "node ./src/index.js"
+  }
+}

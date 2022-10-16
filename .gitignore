@@ -1,0 +1,5 @@
+node_modules
+src/data/input/*
+!src/data/input/.gitkeep
+src/data/output/*
+!src/data/output/.gitkeep
