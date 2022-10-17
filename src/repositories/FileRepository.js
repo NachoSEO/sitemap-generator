@@ -14,7 +14,7 @@ class FileRepository {
   }
   
   removeFilesFromDir(dirPath) {
-    this.fs.readdir(this.path.join(__dirname, dirPath), (err, files) => {
+    this.fs.readdirSync(this.path.join(__dirname, dirPath), (err, files) => {
       if (err) throw err;
     
       for (const file of files) {
