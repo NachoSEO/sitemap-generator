@@ -58,7 +58,7 @@ _getTlds(urls) {
 
 When executed, the output will be a set of folders using the name of each domain:
 
-![Screenshot](sitemap-example-output.png)
+![Screenshot](multiple-sitemap-example.png)
 
 
 ## Additional notes
