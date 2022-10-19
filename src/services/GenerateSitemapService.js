@@ -61,7 +61,7 @@ class GenerateSitemapService {
 
   _getTlds(urls) {
     const domains = urls.map(url => {
-      return new URL(url).host.match('example\..*')[0] // modify this regex to classify the urls in directories
+      return new URL(url).host.match('')[0] // modify this regex to classify the urls in directories
     })
 
     return [...new Set(domains)]
