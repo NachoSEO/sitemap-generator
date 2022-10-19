@@ -1,1 +1,5 @@
-PASTE YOUR URLS HERE
+https://example.com
+https://example.es
+https://example.com/example-path
+https://example.es/other-path
+https://example.de
