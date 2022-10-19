@@ -1,5 +1,5 @@
 const { generateSitemapCommand } = require('./providers/providers.js');
 
-const [,, sitemapFileName,domain] = process.argv;
+const [,, sitemapFileName] = process.argv;
 
-generateSitemapCommand.execute(sitemapFileName, domain);
+generateSitemapCommand.execute(sitemapFileName);
