@@ -3,12 +3,13 @@ A NodeJS script to generate a sitemap.xml or several ones (with its sitemap inde
 
 ## Requirements
 * NodeJS installed
-* Npm or Yarn to run the script (no dependencies)
+* Npm or Yarn to run the script
 
 ## How to generate a sitemap.xml?
 1. Add your URLs in `./src/data/input/urls.txt`
-2. Execute the script in the command line `$ yarn run execute SITEMAP_NAME`(i.e. `yarn run execute sitemap-blog`)
-3. Done!
+2. Execute `Yarn`or `npm install`to install the dependencies
+3. Execute the script in the command line `$ yarn run execute SITEMAP_NAME`(i.e. `yarn run execute sitemap-blog`)
+4. Done!
 
 The output will be under the path: `./src/data/output`
 
