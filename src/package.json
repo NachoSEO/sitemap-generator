@@ -6,7 +6,7 @@
   "author": "Nacho Mascort <nacho.mascort@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "execute": "node ./src/index.js"
+    "execute": "node ./index.js"
   },
   "dependencies": {
     "fs-extra": "^10.1.0"
