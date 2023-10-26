@@ -1,0 +1,10 @@
+version: "3.6"
+
+services:
+  sitemap-generator:
+    build:
+      context: .
+      dockerfile: docker/nodejs/Dockerfile
+    command: /opt/app/start.sh
+    volumes:
+      - ./src:/opt/app
