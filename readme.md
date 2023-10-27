@@ -2,8 +2,7 @@
 A NodeJS script to generate a sitemap.xml or several ones (with its sitemap index also) if the input is greater than 50.000 URLs.
 
 ## Requirements
-* NodeJS installed
-* Npm or Yarn to run the script
+* Docker installed
 
 ## How to generate a sitemap.xml?
 1. Add your URLs in `./src/data/input/urls.txt`
